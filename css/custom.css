@@ -1,0 +1,104 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-inverse{ /*regular display*/
+	font-weight: bold;
+	border-color: black;
+	min-height: 70px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+39,034a70+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(left, #ffffff 39%, #034a70 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(39%,#ffffff), color-stop(100%,#034a70)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #ffffff 39%,#034a70 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #ffffff 39%,#034a70 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #ffffff 39%,#034a70 100%); /* IE10+ */
+background: linear-gradient(to right, #ffffff 39%,#034a70 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#034a70',GradientType=1 ); /* IE6-9 */
+}
+
+#brand-image {
+	/*height: 250%;*/
+  max-width: 180px;
+	margin-left: 8px;
+}
+
+#brand-image1 {
+	/*height: 250%;*/
+  max-width: 180px;
+}
+
+#brand-image3 {
+  height: 180%;
+}
+
+body{
+	background: #C3E0E1;
+	padding-top: 35px;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu{
+	display: block;
+}
+
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 50px; /* <<< CHANGE LINE HEIGHT */
+ /* your code will probably require a slightly different change to line height,
+   basically, line height will need to be about 20-22px less than
+   your navbar's height  */
+ }
+
+/*.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: white;
+}*/
+
+.navbar .nav > li > a {
+    float: none;
+    line-height: 50px;
+    padding: 9px 10px 11px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color: white;
+    text-shadow:
+    -1px -1px 0 #034a70,
+    1px -1px 0 #034a70,
+    -1px 1px 0 #034a70,
+    1px 1px 0 #034a70;  
+}
+
+.jdescription {
+  border-radius: 10px;
+  border: 1px solid;
+  box-shadow: 10px 10px 5px #888888;
+  background-color: white;
+}
+
+.carousel {/*delete this css if you want image to expand */
+    max-width: 1200px; //the largest you want the image to stretch
+    min-width: 900px;  
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.footer{
+  background-color: #034a70;
+}
+
+.footer .row p {
+  color: white;
+  float: right;
+  margin-right: 200px;
+  }
+
+#mip {
+  padding: 0px 0px 0px 10px;
+}
+
+#welcome {
+  border-bottom: 2px solid black;
+  display: inline-block;
+  margin-left: 8px;
+}
